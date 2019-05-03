@@ -1,0 +1,47 @@
+
+/*https://www.youtube.com/watch?v=o8DTzU0Iol8
+https://www.youtube.com/watch?v=aTK3vCzjzCo
+*/
+
+#wrapper {
+    width: 100%;
+    
+}
+
+.navigation {
+    font-family: sans-serif;
+    font-size: 20px;
+    position: absolute;
+    top: 10%;
+    left: 1%;
+}
+
+.mainNavigation{
+    list-style: none;
+}
+
+li{
+    padding: 8px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.content {
+    display: none;
+    position: absolute;
+}
+
+.dropdown:hover .content {
+    display: block;
+}
+
+.dropStyle {
+    list-style:circle;
+}
+
+a:any-link {
+    color: black;
+}
