@@ -3,11 +3,6 @@
 https://www.youtube.com/watch?v=aTK3vCzjzCo
 */
 
-#wrapper {
-    width: 100%;
-    
-}
-
 .navigation {
     font-family: sans-serif;
     font-size: 20px;
@@ -45,3 +40,57 @@ li{
 a:any-link {
     color: black;
 }
+
+/* the resume page...*/
+#wrapper {
+    width: 100%;
+}
+
+header {
+    padding-top: 25px;
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 80px;
+    padding-bottom: 100px;
+}
+
+.resumePage {
+    background-image: url(industrial-loft-design_163324.jpg);
+    background-size:cover;
+}
+
+container{
+    width: 100%;
+}
+
+.hover{
+    position: relative;
+    display: inline-block;
+    width: 20%;
+    float: left;
+    padding: 1xp;
+}
+
+h2 {
+    background-color: #ffffff;
+    border: 1px solid black;
+    color: solid black;
+    
+}
+
+.text {
+    display: none;
+    position: absolute;
+    text-align: center;
+    background-color: #ffffff;
+    width: 100%;
+    border: 1px solid black;
+    color: solid black;
+    padding-left: 10xp;
+}
+
+.hover:hover .text{
+    display: block;
+}
+
